@@ -1,0 +1,58 @@
+{
+  "mcpServers": {
+    "21st-magic": {
+      "args": [
+        "{{PORTABLE_SUITE_DIR}}/bin/mcp_registry/node_modules/@21st-dev/magic/dist/index.js"
+      ],
+      "command": "{{PORTABLE_SUITE_DIR}}/runtime/node/node.exe",
+      "env": {
+        "PATH": "C:/Windows/system32;C:/Windows;C:/Program Files/Git/cmd;{{PORTABLE_SUITE_DIR}}/runtime/node;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin/cache/dart-sdk/bin;{{PORTABLE_SUITE_DIR}}/bin"
+      }
+    },
+    "context7": {
+      "args": [
+        "{{PORTABLE_SUITE_DIR}}/bin/mcp_registry/node_modules/@upstash/context7-mcp/dist/index.js"
+      ],
+      "command": "{{PORTABLE_SUITE_DIR}}/runtime/node/node.exe",
+      "env": {
+        "PATH": "C:/Windows/system32;C:/Windows;C:/Program Files/Git/cmd;{{PORTABLE_SUITE_DIR}}/runtime/node;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin/cache/dart-sdk/bin;{{PORTABLE_SUITE_DIR}}/bin"
+      }
+    },
+    "magic-ui": {
+      "args": [
+        "{{PORTABLE_SUITE_DIR}}/bin/mcp_registry/node_modules/@magicuidesign/mcp/dist/server.js"
+      ],
+      "command": "{{PORTABLE_SUITE_DIR}}/runtime/node/node.exe",
+      "env": {
+        "PATH": "C:/Windows/system32;C:/Windows;C:/Program Files/Git/cmd;{{PORTABLE_SUITE_DIR}}/runtime/node;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin/cache/dart-sdk/bin;{{PORTABLE_SUITE_DIR}}/bin"
+      }
+    },
+    "memory": {
+      "args": [
+        "{{PORTABLE_SUITE_DIR}}/bin/mcp_registry/node_modules/@modelcontextprotocol/server-memory/dist/index.js"
+      ],
+      "command": "{{PORTABLE_SUITE_DIR}}/runtime/node/node.exe",
+      "env": {
+        "PATH": "C:/Windows/system32;C:/Windows;C:/Program Files/Git/cmd;{{PORTABLE_SUITE_DIR}}/runtime/node;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin/cache/dart-sdk/bin;{{PORTABLE_SUITE_DIR}}/bin"
+      }
+    },
+    "openfang": {
+      "args": [
+        "mcp"
+      ],
+      "command": "{{PORTABLE_SUITE_DIR}}/bin/v_mcp.exe",
+      "env": {
+        "PATH": "C:/Windows/system32;C:/Windows;C:/Program Files/Git/cmd;{{PORTABLE_SUITE_DIR}}/runtime/node;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin;{{PORTABLE_SUITE_DIR}}/runtime/flutter/bin/cache/dart-sdk/bin;{{PORTABLE_SUITE_DIR}}/bin"
+      }
+    },
+    "github": {
+      "command": "{{PORTABLE_SUITE_DIR}}/runtime/node/node.exe",
+      "args": [
+        "{{PORTABLE_SUITE_DIR}}/bin/mcp_registry/node_modules/@modelcontextprotocol/server-github/dist/index.js"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN_HERE"
+      }
+    }
+  }
+}
