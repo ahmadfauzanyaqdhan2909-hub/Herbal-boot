@@ -1,3 +1,22 @@
 node_modules
 .env
 .DS_Store
+
+# V7LA System Files & Logs
+.agents/
+bin/
+runtime/
+PRODUCTION-LMS-STABLE/
+starter/
+__MACOSX/
+temp_clone2/
+*.exe
+*.bat
+*.ps1
+lancedb_v7la_cache.json
+nexus_prompt_output.md
+mcp_config.json
+mcp_config.json.template
+v7la_protocol.json
+prd.md
+progress.md
